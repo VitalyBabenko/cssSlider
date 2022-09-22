@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Slider</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="carousel-inner">
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-1"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+          checked="checked"
+        />
+        <div class="carousel-item">
+          <div class="carusel-item-inner">
+            <h1 id="title">Material Design</h1>
+            <p id="desc">
+              Designer MatГ­as Duarte explained that "unlike real paper, our
+              digital material can expand and reform intelligently. Material has
+              physical surfaces and edges. Seams and shadows provide meaning
+              about what you can touch." Google states that their new design
+              language is based on paper and ink.
+            </p>
+            <img src="./img/slide1.jpeg" />
+          </div>
+        </div>
+
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-2"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+        />
+        <div class="carousel-item">
+          <div class="carusel-item-inner">
+            <h1 id="title">Material Design</h1>
+            <p id="desc">
+              First seen in Google Now, it is a cleaner design with increased
+              use of grid-based layouts, responsive animations and transitions,
+              padding, and depth effects such as lighting and shadows. Increased
+              use of grid-based.
+            </p>
+          </div>
+          <img src="./img/slide2.jpeg" />
+        </div>
+
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-3"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+        />
+        <div class="carousel-item">
+          <div class="carusel-item-inner">
+            <h1 id="title">Material Design</h1>
+            <p id="desc">
+              Expanding upon the "card" motifs first seen in Google Now, it is a
+              cleaner design with increased use of grid-based layouts,
+              responsive animations and transitions, padding, and depth effects
+              such as lighting and shadows.
+            </p>
+          </div>
+          <img src="./img/slide3.jpeg" />
+        </div>
+        <label for="carousel-3" class="carousel-control prev control-1"></label>
+        <label for="carousel-2" class="carousel-control next control-1"></label>
+        <label for="carousel-1" class="carousel-control prev control-2"></label>
+        <label for="carousel-3" class="carousel-control next control-2"></label>
+        <label for="carousel-2" class="carousel-control prev control-3"></label>
+        <label for="carousel-1" class="carousel-control next control-3"></label>
+        <ol>
+          <li><label for="carousel-1"></label></li>
+          <li><label for="carousel-2"></label></li>
+          <li><label for="carousel-3"></label></li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
